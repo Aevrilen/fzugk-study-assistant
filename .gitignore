@@ -1,0 +1,34 @@
+# Local credentials and configuration
+service/config.json
+service/config.*.local.json
+.env
+.env.*
+!.env.example
+!.env.sample
+*.pem
+*.key
+*.p12
+*.pfx
+credentials.json
+secrets.json
+
+# Runtime data, logs, local databases and generated files
+service/data/
+work/
+node_modules/
+coverage/
+dist/
+build/
+*.log
+*.sqlite
+*.sqlite3
+*.db
+*.tmp
+*.bak
+
+# Editor and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+Desktop.ini
